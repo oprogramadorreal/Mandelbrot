@@ -1,4 +1,7 @@
-﻿#version 330 core
+﻿// Esse eh o vertex shader.
+// Ele roda na GPU, para cada vertice da geometria que enviarmos.
+
+#version 330 core
 
 layout (location = 0) in vec3 vertexPosition;
 

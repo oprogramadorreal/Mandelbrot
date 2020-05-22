@@ -1,3 +1,6 @@
+// Esse eh o fragment shader (onde a magica acontece).
+// Ele roda na GPU, para cada pixel da geometria rasterizada.
+
 #version 330 core
 
 uniform float windowAspect; // largura dividido pela altura da janela

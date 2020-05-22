@@ -3,6 +3,9 @@ using System.IO;
 
 namespace Mandelbrot
 {
+    /**
+     * Classe utilitaria para criar e compilar os shaders.
+     **/
     public static class ShadersFactory
     {
         public static int CreateProgram(string vertexShaderFile, string fragmentShaderFile)

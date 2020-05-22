@@ -5,6 +5,9 @@ using System.IO;
 
 namespace Mandelbrot
 {
+    /**
+     * Classe utilitaria para criar texturas.
+     **/
     public static class Texture2dFactory
     {
         public static int Create(string filePath, bool flipImage = true)

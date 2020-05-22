@@ -5,6 +5,9 @@ using System;
 
 namespace Mandelbrot
 {
+    /**
+     * Esse eh o codigo do "programa burocratico" que roda na CPU.
+     */
     sealed class Program : GameWindow
     {
         private int shaderProgram;
@@ -72,7 +75,7 @@ namespace Mandelbrot
             BindTexture("colorsTexture", 0);
 
             GL.BindVertexArray(vao);
-            GL.DrawArrays(PrimitiveType.Quads, 0, 4);
+            GL.DrawArrays(PrimitiveType.Quads, 0, 4); // desenha o retangulo colado na tela
 
             SwapBuffers();
         }
